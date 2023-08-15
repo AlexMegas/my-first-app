@@ -23,7 +23,7 @@ export class AuthService {
     private tokenExpirationTimer: any;
 
     AUTH_SIGNUP_URL: string = 'https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=';
-    AUTH_LOGIN_URL: string = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key';
+    AUTH_LOGIN_URL: string = 'https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=';
 
     constructor(
         private http: HttpClient,
